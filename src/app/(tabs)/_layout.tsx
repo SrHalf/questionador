@@ -1,0 +1,38 @@
+import Entypo from '@expo/vector-icons/Entypo';
+import Ionicons from '@expo/vector-icons/Ionicons';
+import { Tabs } from 'expo-router';
+
+export default function TabLayout() {
+  return (
+    <Tabs
+      screenOptions={{
+        tabBarActiveTintColor: '#ffd33d',
+        headerStyle: {
+          backgroundColor: '#25292e',
+        },
+        headerShadowVisible: false,
+        headerTintColor: '#fff',
+        tabBarStyle: {
+          backgroundColor: '#25292e',
+        },
+      }}
+    >
+      <Tabs.Screen name="index" options={{ title: 'Início', 
+        tabBarIcon: ({ color, focused }) => (
+            <Ionicons name={focused ? 'home-sharp' : 'home-outline'} color={color} size={24} />
+          ),
+       }} />
+      <Tabs.Screen name="questionario" options={{ title: 'Questionário',
+        tabBarIcon: ({ color, focused }) => (
+            // <Ionicons name={focused ? 'document-text' : 'document-text-outline'} color={color} size={24}/>
+            <Entypo name={focused ? 'text-document' : 'text-document-inverted'} color={color} size={24}/>
+          ),
+       }} />
+      <Tabs.Screen name="sobre" options={{ title: 'Sobre',
+          tabBarIcon: ({ color, focused }) => (
+            <Ionicons name={focused ? 'information-circle' : 'information-circle-outline'} color={color} size={24}/>
+          ),
+       }} />
+    </Tabs>
+  );
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "codigo": "eca-23",
+    "enunciado": "<p>Acerca das políticas sociais, julgue o item subsequente.</p><p>De acordo com o Estatuto da Criança e do Adolescente, a condenação criminal do pai ou da mãe implicará a destituição do poder familiar, independentemente da natureza do delito.</p>",
+    "certo": false,
+    "explicacao": "<p>Art. 23. A falta ou a carência de recursos materiais não constitui motivo suficiente para a perda ou a suspensão do pátrio poder familiar.</p><p>§ 1º Não existindo outro motivo que por si só autorize a decretação da medida, a criança ou o adolescente será mantido em sua família de origem, a qual deverá obrigatoriamente ser incluída em serviços e programas oficiais de proteção, apoio e promoção.</p><p><b>§ 2º A condenação criminal do pai ou da mãe não implicará a destituição do poder familiar, exceto na hipótese de condenação por crime doloso sujeito à pena de reclusão contra outrem igualmente titular do mesmo poder familiar ou contra filho, filha ou outro descendente.</b></p>"
+  },
+
+
+  {
+    "codigo": "eca-42",
+    "enunciado": "<p>Julgue o seguinte item, referente à adoção de crianças e adolescentes, de acordo com o disposto no ECA.</p><p>Considerado o direito da criança e do adolescente de serem criados e educados no seio de sua família, é recomendável a adoção pelos ascendentes e irmãos do adotando.</p>",
+    "certo": false,
+    "explicacao": "<p>SEÇÃO III, DA FAMÍLIA SUBSTITUTA</p><p>SUBSEÇÃO I, DA ADOÇÃO</p><p>[...]</p><p>Art. 42. Podem adotar os maiores de 18 (dezoito) anos, independentemente do estado civil.</p><p><b>§ 1º Não podem adotar os ascendentes e os irmãos do adotando.</b></p><p>§ 2º Para adoção conjunta, é indispensável que os adotantes sejam casados civilmente ou mantenham união estável, comprovada a estabilidade da família.</p><p>§ 3º O adotante há de ser, pelo menos, dezesseis anos mais velho do que o adotando.</p><p>§ 4º Os divorciados, os judicialmente separados e os ex-companheiros podem adotar conjuntamente, contanto que acordem sobre a guarda e o regime de visitas e desde que o estágio de convivência tenha sido iniciado na constância do período de convivência e que seja comprovada a existência de vínculos de afinidade e afetividade com aquele não detentor da guarda, que justifiquem a excepcionalidade da concessão.</p><p>§ 5º Nos casos do § 4º deste artigo, desde que demonstrado efetivo benefício ao adotando, será assegurada a guarda compartilhada, conforme previsto no art. 1.584 da Lei n o 10.406, de 10 de janeiro de 2002 - Código Civil.</p><p>§ 6º o A adoção poderá ser deferida ao adotante que, após inequívoca manifestação de vontade, vier a falecer no curso do procedimento, antes de prolatada a sentença.</p>"
+  },
+
+
+
+  {
+    "codigo": "eca-45",
+    "enunciado": "<p>Julgue o seguinte item, referente à adoção de crianças e adolescentes, de acordo com o disposto no ECA.</p><p>Somente a partir dos quatorze anos de idade poderá o adotando expressar consentimento para sua adoção.</p>",
+    "certo": false,
+    "explicacao": "<p>Art. 45. A adoção depende do consentimento dos pais ou do representante legal do adotando.</p><p>§ 1º. O consentimento será dispensado em relação à criança ou adolescente cujos pais sejam desconhecidos ou tenham sido destituídos do poder familiar.</p><p>§ 2º. Em se tratando de adotando maior de doze anos de idade, será também necessário o seu consentimento.</p>"
+  },
+
+  {
+    "codigo": "eca-48",
+    "enunciado": "<p>Julgue o seguinte item, referente à adoção de crianças e adolescentes, de acordo com o disposto no ECA.</p><p>Pedido de acesso ao processo de adoção poderá ser deferido ao adotado menor de 18 anos de idade, asseguradas a ele orientação e assistência jurídica e psicológica.</p>",
+    "certo": true,
+    "explicacao": "<p>Art. 48.  O adotado tem direito de conhecer sua origem biológica, bem como de obter acesso irrestrito ao processo no qual a medida foi aplicada e seus eventuais incidentes, após completar 18 (dezoito) anos.</p><p>Parágrafo único.  O acesso ao processo de adoção poderá ser também deferido ao adotado menor de 18 (dezoito) anos, a seu pedido, assegurada orientação e assistência jurídica e psicológica.</p>"
+  },
+  
+  {
+    "codigo": "eca-60",
+    "enunciado": "<p>Julge o seguinte item, de acordo com o disposto na Lei nº 8.069/1990</p><p>É proibido qualquer trabalho a menores de quatorze anos de idade.</p>",
+    "certo": false,
+    "explicacao": "Art. 60. É proibido qualquer trabalho a menores de quatorze anos de idade, salvo na condição de aprendiz."
+  }
+]
