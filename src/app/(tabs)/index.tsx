@@ -1,25 +1,29 @@
 import { FlatList, StyleSheet, Text, View } from "react-native";
-
-// TODO: Criar uma lista com os nomes de todos os arquivos .json disponíveis.
-// Os arquivos deverão estar em uma pasta interna, como dados/, por exemplo.
-const ITEMS = [
-  { id: 1, name: 'Avocado toast' },
-  { id: 2, name: 'Bagel with cream cheese' },
-  { id: 3, name: 'Cappuccino' },
-];
+import questionarios from "../../dados/questionarios";
 
 export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={{fontSize: 24}}>Selecione um questionário para começar.</Text>
-      <FlatList data={ITEMS}
-        renderItem={({item}) => <Text style={{fontSize: 18}}>{item.name}</Text>} />
+      <FlatList data={questionarios}
+        renderItem={({item}) => (
+          <View style={styles.item}>
+            <Text style={{padding: 8, fontSize: 18}}>{item.nome}</Text>
+          </View>
+        )} />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,    
+    flex: 1,
+    margin: 8,
   },
+  item: {
+    margin: 8,
+    flexDirection: "row",
+    borderBottomWidth: 1,
+    borderColor: "#909090",
+  }
 });
